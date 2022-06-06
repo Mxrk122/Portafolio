@@ -1,0 +1,32 @@
+$bg-color: #001319;
+$blue-color: #0BB5FF;
+$red-color: #FF004D;
+$green-color: #FFB600;
+
+.project-element{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin: 20px;
+    color: #0BB5FF;
+
+    h4 {
+        margin: 10px;
+        font-size: 20px;
+    }
+    
+    p {
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+
+.project-element > img {
+    border-radius: 17px;
+    width: 350px;
+}

@@ -1,0 +1,58 @@
+$bg-color: #001319;
+$blue-color: #0BB5FF;
+$red-color: #FF004D;
+$green-color: #FFB600;
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    min-height: 100vh;
+
+    h1{
+        font-weight: 400;
+        text-align: center;
+        font-size: 120px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Syncopate', sans-serif;
+        color: $green-color;
+    }
+
+    p {
+        margin: 25px;
+        text-align: justify;
+        max-width: 100%;
+        font-size: 22px;
+        color: $green-color;
+    }
+
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        
+        grid-gap: 20px;
+    }
+
+    .contact-icon{
+        fill: $green-color;
+    }
+
+    .contact-icon:hover{
+        fill: $blue-color;
+    }
+
+    @media screen and (max-width: 1100px){
+        justify-content: flex-start;
+
+        h1{
+            font-size: 70px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+$bg-color: #001319;
+$blue-color: #0BB5FF;
+$red-color: #FF004D;
+$green-color: #FFB600;
+
+.skill-element{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.vector{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5 {
+    margin: 0;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
