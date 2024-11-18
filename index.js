@@ -1,7 +1,7 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import App from './Components/App'
+import App from './src/Components/App'
 
 // 👇️ passed wrong ID to getElementById() method
 const rootElement = document.getElementById('root')
